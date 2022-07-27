@@ -6,12 +6,13 @@
 
 .containers {
     background-color: #fff;
-    height: 80vh;
-    border-radius: 33px;
+    /* height: 80vh; */
+    border-radius: 2vw;
     max-width: 70vw;
     margin: auto;
     align-items: center;
     margin-top: 4%;
+    overflow: hidden;
 }
 
 
@@ -24,11 +25,11 @@
     display: flex;
     margin: auto;
     justify-content: space-between;
-    padding: 20px 35px;
+    padding: 2vw 3vw;
 }
 
 #logo {
-    width: 7rem;
+    width: 7vw;
 }
 
 
@@ -49,15 +50,15 @@
 #pro {
     border: 4px solid #efeaea;
     border-radius: 50%;
-    width: 2.5rem;
+    width: 2.5vw;
 }
 
 #bag {
-    width: 2rem;
+    width: 2vw;
 }
 
 #loc {
-    width: 2rem;
+    width: 2vw;
 }
 
 .bag-pad {
@@ -87,7 +88,7 @@
 }
 
 #wish {
-    width: 1.5rem;
+    width: 1.5vw;
     margin-left: 8px;
 }
 
@@ -99,7 +100,7 @@
 }
 
 #cart {
-    width: 2rem;
+    width: 2vw;
 }
 
 .cart-item {
@@ -133,23 +134,24 @@
 }
 
 .arrow {
-    width: 7rem;
+    width: 7vw;
 }
 
 #text-parent {
     position: absolute;
-    top: -40px;
+    top: -4vw;
 }
 
 .text {
     -webkit-text-fill-color: white;
-    font-size: 8rem;
+    font-size: 7vw;
+    margin-top: 10px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 
 #add {
-    width: 60px;
+    width: 6vw;
 }
 
 .rate {

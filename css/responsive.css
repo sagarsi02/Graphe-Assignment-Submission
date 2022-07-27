@@ -1,5 +1,17 @@
-@media screen and (max-width: 919px) {
-    .text {
-        font-size: 80px;
+@media screen and (max-width: 889px) {
+    .ratePerKg {
+        margin-bottom: 0;
+    }
+    .bill {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .bag-pad {
+        padding: 0 1vw;
+    }
+    .ratePerKg {
+        margin-bottom: -6vw;
     }
 }
