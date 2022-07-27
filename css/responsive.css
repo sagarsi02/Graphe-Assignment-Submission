@@ -1,9 +1,39 @@
 @media screen and (max-width: 889px) {
+    .containers {
+        max-width: 90vw;
+    }
     .ratePerKg {
         margin-bottom: 0;
     }
     .bill {
         margin-top: 0;
+    }
+    #pro {
+        width: 4.5vw;
+    }
+    #bag {
+        width: 4vw;
+    }
+    #loc {
+        width: 4vw;
+    }
+    #cart {
+        width: 4vw;
+    }
+    .cart-item {
+        right: -9px;
+        top: 2px;
+        padding: 1px 5px;
+        font-size: 5px;
+    }
+    #orange {
+        width: 75%;
+    }
+    #pear {
+        width: 65%;
+    }
+    #apple {
+        width: 75%;
     }
 }
 
