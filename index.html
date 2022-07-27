@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototyping - Frontend Test</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: #000000;">
+    <!-- Top Side -->
+    <div class="containers">
+        <div class="graphe">
+            <div class="graphe-left">
+                <img src="img/logo.png" id="logo" alt="">
+            </div>
+            <div class="graphe-middle">
+                <ul class="img-list">
+                    <li class="img-li">
+                        <img src="img/profile pic.png" class="pbl" id="pro" alt="">
+                    </li>
+                    <li class="img-li bag-pad">
+                        <img src="img/bag.png" class="pbl" id="bag" alt="">
+                    </li>
+                    <li class="img-li">
+                        <img src="img/location.png" class="pbl" id="loc" alt="">
+                    </li>
+                </ul>
+                <div class="wish">
+                    <p class="wish-count">34</p>
+                    <img src="img/wishlist.png" id="wish" alt="">
+                </div>
+            </div>
+            <div class="graphe-right">
+                <img src="img/cart.png" id="cart" alt="">
+                <p class="cart-item" id="prod-count">0</p>
+            </div>
+        </div>
+        <!-- Carousel -->
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/orange.png" id="orange" class="d-block" alt="Orange">
+                    <div class="carousel-caption d-none d-md-block" id="text-parent">
+                        <h5 class="text">Orange</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pear.png" id="pear" class="d-block" alt="Pear">
+                    <div class="carousel-caption d-none d-md-block" id="text-parent">
+                        <h5 class="text">Pear</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/apple.png" id="apple" class="d-block" alt="Apple">
+                    <div class="carousel-caption d-none d-md-block" id="text-parent">
+                        <h5 class="text">Apple</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-caption d-none d-md-block ratePerKg">
+                    <button type="button" id="add-btn">
+                        <img src="img/add.png" id="add" alt="">
+                    </button>
+                    <h2 class="rate">$ <span id="rate-fare">0.30</span>/Kg</h2>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                <img src="img/left arrow.png" class="arrow" id="left" alt="">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <img src="img/right arrow.png" class="arrow" id="right" alt="">
+            </button>
+        </div>
+        <!-- Carousel -->
+        <div class="bottom-side">
+            <div class="message">
+                <img src="img/message.png" alt="" id="msg">
+            </div>
+            <div class="bill">
+                <div class="fare">
+                    <h4 class="total">Total</h4>
+                    <h1 class="price">$ <span id="net-price">0.0</span></h1>
+                    <p class="tax">Tax Included</p>
+                </div>
+                <div class="receipt">
+                    <img src="img/receipt.png" alt="Receipt" id="receipt">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+}
+
+.container {
+    max-width: 75vw;
+    background: #fff;
+    height: 80vh;
+    border-radius: 33px;
+    margin: auto;
+    margin-top: 4.5%;
+}
+
+.max-width {
+    padding: 3rem;
+}
+
+.img-title {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 32px;
+}
+
+.logo-title {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: 19px;
+}

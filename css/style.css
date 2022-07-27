@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containers {
+    background-color: #fff;
+    height: 80vh;
+    border-radius: 33px;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    margin-top: 4%;
+}
+
+
+/* Graphe */
+
+
+/* Graphe Left */
+
+.graphe {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+
+#logo {
+    width: 7rem;
+}
+
+
+/* Graphe Middle */
+
+.img-list {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+#pro {
+    border: 4px solid #efeaea;
+    border-radius: 50%;
+    width: 2.5rem;
+}
+
+#bag {
+    width: 2rem;
+}
+
+#loc {
+    width: 2rem;
+}
+
+.bag-pad {
+    padding: 0px 55px;
+    background-color: #efeaea;
+    border-radius: 55px;
+}
+
+.wish {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.wish-count {
+    background: #e3e3e3;
+    padding: 2px 15px;
+    border-radius: 50px;
+    font-family: system-ui;
+    font-weight: bold;
+    color: #cac1c1;
+    font-style: italic;
+    margin: 0;
+}
+
+#wish {
+    width: 1.5rem;
+    margin-left: 8px;
+}
+
+
+/* Graphe Right */
+
+.graphe-right {
+    position: relative;
+}
+
+#cart {
+    width: 2rem;
+}
+
+.cart-item {
+    margin: 0;
+    position: absolute;
+    right: -8px;
+    top: -6px;
+    background: #ededed;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 1px 9px;
+    font-size: 9px;
+}
+
+
+/* ===================================Carousel============================================= */
+
+#orange {
+    width: 33%;
+    margin: 20px auto;
+}
+
+#pear {
+    width: 18.5%;
+    margin: 20px auto;
+}
+
+#apple {
+    width: 27.1%;
+    margin: 20px auto;
+}
+
+.arrow {
+    width: 7rem;
+}
+
+#text-parent {
+    position: absolute;
+    top: -40px;
+}
+
+.text {
+    -webkit-text-fill-color: white;
+    font-size: 8rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#add {
+    width: 60px;
+}
+
+.rate {
+    color: #000000;
+    font-family: inherit;
+    font-size: 22px;
+}
+
+.ratePerKg {
+    margin-bottom: 35px;
+}
+
+#add-btn {
+    background: none;
+    border: none;
+}
+
+
+/* Bottom Side */
+
+.bottom-side {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#msg {
+    width: 25%;
+}
+
+.bill {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    margin-top: -78.9px;
+}
+
+.total {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.tax {
+    background: #c5c5c5;
+    padding: 5px 20px;
+    border-radius: 55px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.receipt {
+    text-align: right;
+}
+
+#receipt {
+    width: 35%;
+}
